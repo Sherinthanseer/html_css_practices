@@ -1,0 +1,21 @@
+.main{
+    background-image: linear-gradient(to right, rgb(247, 36, 88),rgb(173, 16, 212));
+}
+.box{
+    background-color: rgb(43, 212, 212);
+    color: white;
+    margin: 10%;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+}
+.tab{
+     width: 100%;
+     height: 10px;
+     text-align: center;
+     tr:hover {background-color: coral;}
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
