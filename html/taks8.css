@@ -1,0 +1,12 @@
+.i{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.v{
+    
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-right: 0%;
+}

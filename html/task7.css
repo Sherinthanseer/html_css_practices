@@ -1,0 +1,35 @@
+.a{
+    color: chartreuse;
+}
+h1{
+    /* border properties */
+    border: 10px;
+    border-color:red;
+    border-style: solid;
+    /* padding distance from content to border */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin distance from next element */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* text properties */
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    /* replace log.png with path of your image */
+    background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg');
+}
+#heading{
+    color: chocolate;
+}
+*{
+    background-color: cornflowerblue;
+}
+ul li:first-child {
+    color: fuchsia;
+}

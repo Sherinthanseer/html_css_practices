@@ -68,9 +68,15 @@
     text-align: center;
 }
 .body{
-    position: fixed;
+    position: sticky;
 }
 .a{
     text-decoration: none;
     color: white;
+}
+#h{
+    color: hsl(240, 100%, 50%);
+}
+h2{
+
 }
