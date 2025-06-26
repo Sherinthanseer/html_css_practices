@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRM Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- NAVBAR -->
+  <nav class="bg-teal-500 text-white p-4">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img class="h-8" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg" alt="Logo" />
+        <span class="font-bold text-lg">CRM Dashboard</span>
+      </div>
+      <div class="space-x-4 hidden sm:block">
+        <a href="#" class="hover:underline">Dashboard</a>
+        <a href="#" class="hover:underline">Team</a>
+        <a href="#" class="hover:underline">Projects</a>
+        <a href="#" class="hover:underline">Calendar</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE LAYOUT -->
+  <div class="flex">
+
+    <!-- SIDEBAR -->
+    <div class="w-40 bg-gray-800 text-white h-screen p-4 text-sm  ">
+      <h2 class="text-lg font-bold mb-4">Menu</h2>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-teal-300">Dashboard</a></li>
+        <li><a href="#" class="hover:text-teal-300">Clients</a></li>
+        <li><a href="#" class="hover:text-teal-300">Projects</a></li>
+        <li><a href="#" class="hover:text-teal-300">Tasks</a></li>
+        <li><a href="#" class="hover:text-teal-300">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="flex-1 p-6">
+
+      <!-- ABOUT US STATIC TEXT -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800">About Us</h2>
+        <div class="bg-white rounded p-4 shadow-md text-center max-w-xl mx-auto">
+          <p>We are a small team building simple CRM tools.</p>
+          <p class="mt-2">Our goal is to help you manage your clients better.</p>
+          <p class="mt-2">This dashboard is made with Tailwind CSS by a beginner!</p>
+        </div>
+      </div>
+
+      <!-- CARD SECTION -->
+      <div>
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">CRM Cards</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">Clients</h3>
+            <p class="text-gray-600 mb-2">Keep track of your clients here.</p>
+            <button class="bg-blue-500 text-white px-4 py-1 rounded">View</button>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">Projects</h3>
+            <p class="text-gray-600 mb-2">All your projects in one place.</p>
+            <button class="bg-green-500 text-white px-4 py-1 rounded">View</button>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">Tasks</h3>
+            <p class="text-gray-600 mb-2">Manage your daily tasks here.</p>
+            <button class="bg-purple-500 text-white px-4 py-1 rounded">View</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <!-- FOOTER -->
+  <div class="bg-gray-800 text-white mt-10 p-4 m-0 text-center text-sm">
+    <div class="max-w-7xl mx-auto">
+      <p>&copy; 2025 CRM Dashboard. All rights reserved.</p>
+      <div class="mt-2 space-x-4">
+        <a href="#" class="hover:underline">Privacy Policy</a>
+        <a href="#" class="hover:underline">Terms of Service</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
